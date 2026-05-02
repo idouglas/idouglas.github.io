@@ -216,6 +216,23 @@ a:focus-visible {
   font-weight: 700;
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-height: 2.5rem;
+  margin-top: auto;
+  padding: 0.62rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .timeline {
   display: grid;
   gap: 1.25rem;
